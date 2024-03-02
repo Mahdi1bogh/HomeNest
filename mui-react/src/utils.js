@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 export const axiosInstance = axios.create({
-  baseUrl: 'https://real-states.herokuapp.com',
+  baseUrl: 'https://real-estate-l832jq457-mahdi1bogh.vercel.app/',
 });
 export const axiosClient = axios.create();
 
